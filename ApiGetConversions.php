@@ -1,9 +1,9 @@
 <?php 
 
-	$token = base64_encode('account_id:password'); 
+	$token = base64_encode('mailinhqb:maivanlinh12-'); 
 	//Let add infor your account
 
-	$dataPost = array("sdate" => "20190530", "edate" => "20190530", "offer" => "shopee");
+	$dataPost = array("sdate" => "20210830", "edate" => "20220530", "offer" => "shopee");
 	//add field to fillter exactly: status value(100:pending, 200:merchant confirm, 210:complete and payment, 300:cancel from merchant, 310:cancelled(Admin approved)), order_code, limit (limit field data respon), page (page pagination)
 
 	$curl = curl_init('http://event.adpia.vn/apiv2/getConversions');
